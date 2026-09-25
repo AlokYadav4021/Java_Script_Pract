@@ -115,3 +115,77 @@
 // let languages = ["HTML", "CSS", "JavaScript"];
 // console.log(languages.toString())
 
+// 16.Count a specific character
+// Create:
+
+// let text = "javascript";
+
+// Count how many times the letter "a" appears.
+
+// let text = "javascript";
+// count = 0;
+
+// for (let i = 0 ; i < text.length ; i++){
+//     if (text[i] === "a"){
+//         count++
+//     }
+// }
+// console.log(count)
+
+// 17.Create:
+
+// let password = "JavaScript123";
+
+// Check whether the password contains "123" and has at least 8 characters.
+
+//  let password = "JavaScript123";
+
+//  console.log(password.includes(123))
+
+// 18.Extract the username from an email
+// Create:
+
+// let email = "alok123@gmail.com";
+// Extract only "alok123" using string methods.
+
+// let email = "alok123@gmail.com";
+
+// let username=(email.split("@") [0])
+// console.log(username)
+
+// 19.Reverse a string
+// Create:
+
+// let text = "JavaScript";
+
+// Reverse the string to produce:
+// "tpircSavaJ"
+
+// let text = "JavaScript";
+
+// let opt = text.split("").reverse().join("")
+// console.log(opt)
+
+
+// 20.Count vowels in a string
+// Create:
+
+// let text = "JavaScript is powerful";
+
+// Count how many vowels (a, e, i, o, u) are present in the string.
+
+// Practice rule: Try solving these without looking up the solution. For the first 15, focus on methods such as length, toUpperCase(), toLowerCase(), charAt(), indexOf(), includes(), startsWith(), endsWith(), slice(), replace(), trim(), repeat(), split(), and join().
+
+//  let text = "JavaScript is powerful";
+
+//  count=0 ;
+
+//  let a = text.toLowerCase();
+
+//  for (let i = 0 ; i < text.length ; i++){
+//     if("aeiou".includes (text.charAt(i))){
+//         count++
+//     }
+//  }
+
+//  console.log(count)
