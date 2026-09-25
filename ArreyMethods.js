@@ -157,4 +157,78 @@
 
 // console.log(cont)
 
+// 16.Count odd numbers
+// Create:
 
+// let numbers = [11, 24, 35, 42, 53, 66, 71];
+
+// Count how many numbers are odd.
+
+
+// let numbers = [11, 24, 35, 42, 53, 66, 71];
+
+// let cont = 0;
+
+// for (let i = 0 ; i < numbers.length ; i++ ){
+//     if (numbers[i] % 2 !== 0){
+//         cont++
+//     }
+// }
+
+// console.log(cont)
+
+
+// 17.Reverse an array
+// Create an array of 5 names and reverse the array using the reverse() method.
+
+// let names = ["Alok","Ravi", "Karan", "Vishal"]
+
+// let rev = names.reverse()
+// console.log(names)
+
+// 18.Join array elements
+// Create:
+
+// let words = ["JavaScript", "is", "easy", "to", "learn"];
+
+// Use join() to create one sentence.
+
+// let words = ["JavaScript", "is", "easy", "to", "learn"];
+
+// let joi = words.join(" ")
+// console.log(joi)
+
+
+// 19.Remove elements using splice()
+// Create:
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+// Remove "Mango" from the array using splice().
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+
+// let rem = fruits.splice(2,1);
+
+// console.log(fruits)
+
+
+// 20.Find numbers greater than 50
+// Create:
+
+// let numbers = [25, 67, 43, 89, 12, 76, 54, 31];
+
+// Print only the numbers greater than 50.
+
+
+let numbers = [25, 67, 43, 89, 12, 76, 54, 31];
+
+let cont = 0;
+
+for (let i = 0 ; i < numbers.length ; i++){
+    if(numbers[i] > 50){
+        cont = numbers[i]
+        console.log(cont)
+    }
+}
+// console.log(numbers)
