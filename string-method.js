@@ -57,3 +57,61 @@
 
 // let txt = "myfile.jpg";
 // console.log(txt.endsWith("jpg"))
+
+
+// 9.Extract part of a string
+// From "JavaScript", extract "Script".
+
+// let str = "JavaScript";
+// console.log(str.slice(4))
+
+
+
+// 10.Extract characters using slice
+// Create let text = "Frontend Developer"; and extract "Frontend".
+
+
+// let text = "Frontend Developer";
+
+// console.log(text.slice(0,9))
+
+// 11.Replace a word
+// Change "I love Java" to "I love JavaScript" using a string method.
+
+// let str = "I love Java"; 
+// console.log(str.replace("Java", "JavaScript"))
+
+// 12.Remove extra spaces
+// Create let text = " Hello World "; and remove the spaces from both ends.
+
+// let text = " Hello World ";
+
+// console.log(text);
+
+// console.log(text.trim())
+
+
+// 13.Repeat a string
+// Create let text = "Hi "; and repeat it 5 times using a string method.
+
+// let text = "Hi ";
+// console.log(text.repeat(5))
+
+// 14.Split a sentence
+// Convert "HTML CSS JavaScript React" into an array containing each technology separately.
+
+// let lang = "HTML CSS JavaScript React";
+
+// console.log(lang.split(" "))
+
+// 15.Join array elements
+// Create:
+
+// let languages = ["HTML", "CSS", "JavaScript"];
+
+// Convert it into:
+// "HTML, CSS, JavaScript"
+
+// let languages = ["HTML", "CSS", "JavaScript"];
+// console.log(languages.toString())
+
