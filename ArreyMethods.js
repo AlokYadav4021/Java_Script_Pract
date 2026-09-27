@@ -221,14 +221,14 @@
 // Print only the numbers greater than 50.
 
 
-let numbers = [25, 67, 43, 89, 12, 76, 54, 31];
+// let numbers = [25, 67, 43, 89, 12, 76, 54, 31];
 
-let cont = 0;
+// let cont = 0;
 
-for (let i = 0 ; i < numbers.length ; i++){
-    if(numbers[i] > 50){
-        cont = numbers[i]
-        console.log(cont)
-    }
-}
+// for (let i = 0 ; i < numbers.length ; i++){
+//     if(numbers[i] > 50){
+//         cont = numbers[i]
+//         console.log(cont)
+//     }
+// }
 // console.log(numbers)
