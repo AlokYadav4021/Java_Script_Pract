@@ -186,3 +186,107 @@ function calcgrdMark(mark) {
 }
 
 console.log(calcgrdMark(88));
+
+// 16.Calculate the factorial
+// Create factorial(number) that returns the factorial using a for loop.
+
+// Example:
+
+// factorial(5) → 120
+
+function fact(numb) {
+  let num = 1;
+  for (let i = 1; i <= numb; i++) {
+    num = num * i;
+  }
+  return num;
+}
+
+console.log(fact(5));
+
+// 17.Reverse a number
+// Create reverseNumber(number) that returns the reversed number.
+
+// Example:
+
+// reverseNumber(12345) → 54321
+
+// 18.Count vowels in a string
+// Create countVowels(str) that returns the number of vowels.
+
+// Example:
+
+// countVowels("javascript") → 3
+
+function countVowels(str) {
+  let result = 0;
+  for (let i = 0; i < str.length; i++) {
+    if ("aeiou".includes(str.charAt(i))) {
+      result++;
+    }
+  }
+  return result;
+}
+
+console.log(countVowels("javascript"));
+
+// 19.Find the largest number in an array
+// Create findLargest(numbers) that returns the largest value.
+
+// let numbers = [25, 67, 43, 89, 12, 76];
+
+let numbers = [25, 67, 43, 89, 12, 76];
+
+function largestt(numbers) {
+  let largest = numbers[0];
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+      largest = numbers[i];
+    }
+  }
+
+  return largest;
+}
+
+console.log(largestt(numbers));
+
+// 20.Create a calculator function
+// Create a function:
+
+// calculator(a, b, operator)
+
+// It should perform:
+
+// + addition
+// - subtraction
+// * multiplication
+// / division
+
+// Example:
+
+// calculator(10, 5, "+") // 15
+// calculator(10, 5, "*") // 50
+
+function calculator(a, b, operator) {
+  switch (operator) {
+    case "+":
+      return a + b;
+    case "-":
+      return a - b;
+    case "*":
+      return a * b;
+    case "/":
+      return a / b;
+
+    default:
+      return "Invalid Operator";
+  }
+}
+
+console.log(calculator(10,3,"+"))
+console.log(calculator(3, 3, "*"));
+console.log(calculator(103, 3, "-"));
+console.log(calculator(10, 2, "/"));
+console.log(calculator(10, 3, "#"));
+
