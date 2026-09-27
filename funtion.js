@@ -49,3 +49,63 @@ function div(a,b){
 }
 div(10,2)
 
+
+// 6.Calculate the square of a number
+// Create square(number) that returns the square.
+
+function sur(a){
+    return (a * a )
+}
+console.log(sur(4));
+
+
+// 7.Calculate the area of a rectangle
+// Create rectangleArea(length, width) that returns the area.
+
+function ractArea(length, width){
+    return (length * width)
+}
+console.log(ractArea(12,8))
+
+
+// 8.Convert Celsius to Fahrenheit
+// Create celsiusToFahrenheit(celsius) that returns the temperature in Fahrenheit.
+
+
+function celTofer(celsius){
+    return(celsius * (9/5)+32)
+}
+
+console.log(celTofer(35))
+
+
+// 9.Check even or odd
+// Create checkEvenOdd(number) that returns "Even" or "Odd".
+
+function checkEvnOdd(number){
+    
+    if(number % 2 === 0){
+       return "Number is Even"
+    }else{
+        return "Number is Odd"
+    }
+
+}
+
+console.log(checkEvnOdd(12));
+
+
+
+// 10.Find the greater number
+// Create findGreater(a, b) that returns the greater of the two numbers.
+
+function bigSmall(a,b){
+    if(a > b){
+        return "A is Bugger then B"
+    }
+    else{
+        return "B is Bigger Then A"
+    }
+}
+
+console.log(bigSmall(12,33))
