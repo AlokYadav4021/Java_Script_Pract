@@ -145,6 +145,59 @@ let num1 = 45;
 let num2 = 72;
 
 let lagre = Math.max(num1 , num2 )
-console.log(lagre
-``
-)
+console.log(lagre)
+
+
+// 16.Random number in a range
+// Generate a random integer between 20 and 50.
+
+let rand = Math.floor(Math.random()*(50-20+1))+20
+console.log(rand)
+
+
+// 18.Find the largest number in an array
+// Given:
+
+// let numbers = [12, 45, 7, 89, 34, 67];
+
+
+let numbr = [12, 45, 7, 89, 34, 67];
+
+let lrg = Math.max(...numbr)
+console.log(lrg)
+
+
+// 19.Find the smallest number in an array
+// Given:
+
+// let numbers = [23, 5, 78, 12, 45, 2];
+
+// Find the smallest number using Math.min().
+
+let numberss = [23, 5, 78, 12, 45, 2];
+
+let mini = Math.min(...numberss)
+console.log(mini)
+
+
+
+// 20.Generate a random password number
+// Generate a random 4-digit number between 1000 and 9999.
+
+let pass = Math.floor(Math.random()*(9999 - 1000 +1))+1000
+console.log(pass)
+
+
+// 21.Calculate distance between two numbers
+// Given:
+
+// let a = 25;
+// let b = 80;
+
+// Use Math.abs() to find the distance between a and b.
+
+let aa = 25;
+
+let bb = 80;
+
+console.log(Math.abs(aa - bb))
