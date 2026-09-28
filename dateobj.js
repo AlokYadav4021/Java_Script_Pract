@@ -92,4 +92,69 @@ console.log(sapd.getMinutes())
 console.log(sapd.getSeconds())
 
 
+// 11.Change the year
+// Create a Date object for 2026 and change its year to 2030 using setFullYear().
 
+
+let da = new Date(2026,10,21)
+
+da.setFullYear(2030)
+console.log(da)
+
+
+// 12.Change the month
+// Create a Date object and change its month to December using setMonth().
+
+
+let smo = new Date(2020,1,25)
+
+smo.setMonth(3)
+console.log(smo)
+
+
+// 13.Change the date
+// Create a Date object and change its day of the month to 25 using setDate().
+
+let sda = new Date(2023,11,20)
+sda.setDate(25)
+console.log(sda)
+
+
+// 14.Add 7 days to a date
+// Create a Date object for 10 September 2026. Add 7 days to it using setDate() and print the result.
+
+let addd = new Date(2026,8,10)
+
+addd.setDate(addd.getDate()+7)
+console.log(addd)
+
+
+// 15.Subtract 10 days from a date
+// Create a Date object for 20 September 2026. Subtract 10 days and print the result.
+
+
+let subb = new Date(2026,8,20)
+subb.setDate(subb.getDate()-10)
+console.log(subb)
+
+// 16.Compare two dates
+// Create:
+
+// let date1 = new Date("2026-09-15");
+// let date2 = new Date("2026-09-25");
+
+// Check which date is earlier.
+
+
+let date1 = new Date("2026-09-15");
+let date2 = new Date("2026-09-25");
+
+if(date1 > date2){
+    console.log("Date 1 is Bigger")
+}else if(date1 < date2){
+    console.log("Date 2 is Bigger")
+}else{
+    console.log("Both Are Equal")
+}
+
+17.
