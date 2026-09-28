@@ -74,4 +74,77 @@ let c = 32;
 console.log(Math.min(a,b,c))
 
 
-9.
+// 9.Generate a random number
+// Use Math.random() to generate a random number between 0 and 1.
+
+let random = Math.random(0,1)
+console.log(random)
+
+
+
+// 10.Random number from 1 to 10
+// Generate a random integer between 1 and 10.
+
+let matrand = Math.floor(Math.random()*10)+1
+console.log(matrand)
+
+
+// 11.Random number from 1 to 100
+// Generate a random integer between 1 and 100.
+
+let hrand = Math.floor(Math.random()*100)+1
+console.log(hrand)
+
+
+
+// 12.Dice simulator
+// Use Math.random() to simulate rolling a six-sided dice. The result should be between 1 and 6.
+
+
+let dice = Math.floor(Math.random()*6)+1
+console.log(dice)
+
+
+// 13.Coin toss
+// Generate a random number that represents either:
+
+// 1 = Heads
+// 2 = Tails
+
+
+
+let coin = Math.floor(Math.random()*2)+1
+console.log(coin)
+
+
+
+// 14.Calculate the square root and round it
+// Given:
+// let number = 50;
+// Find its square root and round the result to the nearest integer.
+
+let numbe = 50;
+
+let sq = (Math.sqrt(numbe))
+let rod = Math.round(sq)
+
+console.log(rod)
+
+
+
+// 15.Find the larger of two numbers
+// Given:
+
+// let num1 = 45;
+// let num2 = 72;
+
+// Use Math.max() to print the larger number.
+
+
+let num1 = 45;
+let num2 = 72;
+
+let lagre = Math.max(num1 , num2 )
+console.log(lagre
+``
+)
