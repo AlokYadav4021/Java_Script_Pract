@@ -54,7 +54,33 @@ function change() {
 
 function cangle() {
   let parasub = document.getElementById("para");
-  let addpr = document.getElementById("addp")
+  let addpr = document.getElementById("addp");
 
-  addpr.innerText= parasub.value
+  addpr.innerText = parasub.value;
 }
+
+// 8. Change Image
+// Create an image:
+// <img id="myImage" src="image1.jpg">
+// Use JavaScript to change its image source to another image.
+
+let imgrep = document.getElementById("myImage");
+imgrep.src = "Testimonial-Image-2.jpg";
+
+// 9. Change Button Text
+// Create:
+// <button id="btn">Click Me</button>
+// Use JavaScript to change the button text to:
+// Clicked!
+
+let btncg = document.getElementById("btn");
+btncg.innerText = "Don't Click";
+
+// 10. Hide an Element
+// Create a paragraph.
+// When JavaScript runs, hide the paragraph using:
+// element.style.display = "none";
+
+let message = document.getElementById("message");
+
+message.style.display = "none";
