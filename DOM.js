@@ -45,6 +45,16 @@ size.style.fontSize = "30px";
 let ip = document.getElementById("name");
 
 function change() {
-  let btn = document.getElementById("submit");
   console.log(ip.value);
+}
+
+// 7. Display Input Value
+// Create an input and a button.
+// When the button is clicked, display the entered name inside a <p> element.
+
+function cangle() {
+  let parasub = document.getElementById("para");
+  let addpr = document.getElementById("addp")
+
+  addpr.innerText= parasub.value
 }
