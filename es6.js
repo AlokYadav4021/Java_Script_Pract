@@ -56,3 +56,35 @@ function sam(...arg){
 }
 
 sam(1,2,3,4,5,6,7,8,9)
+
+
+// arrey Destruing
+
+let dest = ["HTML",3,"Frontend"]
+
+let [ame,year,use] = dest
+
+console.log(ame)
+
+
+
+let arr6 = ["Alok","Yadav",21,"Front-end developer"]
+
+let[fname,lname,age,work]=arr6
+
+console.log(`My Name is ${fname} ${lname}, I'm ${age} and i'm ${work}`)
+
+
+
+// object Destruing
+
+let objt = {
+    fname:'Java Script',
+    aage: 3,
+    llname:'Front-end'
+}
+
+
+let{fname:firstname,aage,llname}=objt
+
+console.log(firstname)
