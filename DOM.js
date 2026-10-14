@@ -81,6 +81,14 @@ btncg.innerText = "Don't Click";
 // When JavaScript runs, hide the paragraph using:
 // element.style.display = "none";
 
-let message = document.getElementById("message");
+let mesage = document.getElementById("mesage");
 
-message.style.display = "none";
+mesage.style.display = "none";
+
+
+// 11. Show a Hidden Element
+// Create a hidden paragraph.
+// Create a button called Show.
+// When the button is clicked, display the paragraph.
+
+
